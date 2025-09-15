@@ -1,0 +1,1261 @@
+/* --------------------------------font style link---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* --------------------------------common css part---------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul ,ol{
+    list-style: none;
+}
+
+h1 h2 h3 h4 a p{
+    margin: 0;
+    padding: 0;
+}
+ :root{
+    --poppins: "Poppins", sans-serif;
+    --work_sans: "Work Sans", sans-serif;
+    --primary: #A53DFF;
+    --best: #132238;
+    --gray: #556070;
+    --public: "Public Sans", sans-serif;
+ }
+
+/* -------------------------common css done---------------------- */
+/* --------------------------navbar part working-------------------- */
+.my_website img{
+    width: 56px;
+    height: 56px;
+    
+}
+.my_website ul{
+    font-size: 16px;
+    font-size: 500;
+    font-family: var(--work_sans);
+    color: #333333;
+    margin-top: 32px;
+    gap: 24px;
+}
+
+
+.my_navbar-brand{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: #132238;
+    margin-top: 28px;
+    
+}
+
+
+/* --------------------------------navbar part done-------------------------- */
+/* ---------------------------banner part working----------------------------- */
+#banner{
+    width: 100%;
+    height: 100%;
+    margin-top: 178px;
+    position: relative;
+}
+
+
+.banner_text h1{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: #132238;
+    text-transform: uppercase;
+    
+}
+
+.banner_text span h1{
+    font-size: 72px;
+}
+
+
+
+
+/* Custom */
+
+.type {
+  color: var(--best);
+  background: -webkit-linear-gradient(25deg, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--best) transparent;
+  font-size: 3rem;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+  position: relative;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+.banner_text p{
+    width: 648px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 24px;
+}
+
+
+/* From Uiverse.io by mobinkakei */ 
+.btn {
+    width: 126px;
+    height: 48px;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.btn span {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+
+.banner_image img {
+	width: 540px;
+	height: 670px;
+	position: absolute;
+	top: -98px;
+	right: 200px;
+    border-radius: 20px;
+}
+/* --------------------------------banner part done------------------------ */
+/* -----------------------------counter part working-------------------------- */
+.counter_part{
+    width: 200px;
+    height: 106px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 142px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.counter_iteam{
+    display: flex;
+    gap: 24px;
+}
+
+.counter_text h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: #424E60;
+    padding-top: 17px;
+}
+
+.counter_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: #697484;
+    margin-top: 8px;
+}
+
+
+/* -----------------------------------------counter part done---------------------- */
+/* --------------------------------Professional part working------------------------ */
+
+#professional{
+    margin-top: 222px;
+}
+
+.Professional_image img{
+    width: 540px;
+	height: 670px;
+    border-radius: 10px;
+}
+
+.professional_media ul{
+    display: flex;
+    gap: 12px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.professional_icons {
+	width: 264px;
+	height: 72px;
+	background-color: #ecf0f1;
+	padding-left: 15px;
+	position: absolute;
+	top: -40px;
+	left: 135px;
+}
+
+.professional_media{
+    position: relative;
+}
+
+.professional_text h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--best);
+    padding-top: 190px;
+}
+
+.professional_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 32px;
+}
+
+
+
+/* From Uiverse.io by mobinkakei */ 
+.btn {
+  width: 190px;
+  height: 48px;
+ background-color: var(--primary);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+
+.btn .btn-text-one .fa-download{
+    padding-right: 12px;
+    color: #FAF7F3;
+}
+
+
+.professional_button{
+    display: flex;
+    gap: 16px;
+}
+/* -------------------------work part working----------------------- */
+#work{
+    margin-top: 140px;
+}
+
+.work_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--best);
+}
+.work_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 24px;
+}
+
+.work_type{
+    width: 312px;
+    height: 276px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all linear .4s;
+
+    
+}
+
+.work_type img{
+    width: 72px;
+    height: 72px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.work_type h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--best);
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.work_type p{
+    width: 248px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.work_option  :hover{
+    background-color: #CF9FFF;
+    transition: all linear .4s;
+}
+
+
+.work_option{
+    display: flex;
+    gap: 24px;
+    margin-left: 143px;
+}
+
+.work_part{
+    display:flex ;
+    gap: 24px;
+    margin-left: 803px;
+    margin-top: 24px;
+    
+
+}
+
+.work_part  :hover{
+    background-color: #CF9FFF;
+    transition: all linear .4s;
+}
+
+
+.work_side{
+    width: 312px;
+    height: 276px;
+    background-color: #FBFBFB;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        transition: all linear .4s;
+
+}
+
+.work_side img{
+    width: 72px;
+    height: 72px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.work_side h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--best);
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.work_side p{
+    width: 248px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-left: 32px;
+    margin-top: 12px;
+}
+/* --------------------------------work part done-------------------------------- */
+/* -----------------------------Portfolio  part working---------------------- */
+.portfolio_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--best);
+    padding-top: 100px ;
+    text-align: center;
+}
+
+.portfolio_text h2 span{
+    font-size: 48px;
+}
+
+
+.portfolio_text p{
+    width: 577px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 24px;
+    text-align: center;
+    margin-left: 380px;
+}
+
+
+.typewriter {
+	width: 577px;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, text 5s steps(18) alternate infinite;
+	margin-left: 355px;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+
+.typewriter2 {
+	width: 577px;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, text 5s steps(18) alternate infinite;
+	margin-left: 355px;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+
+.portfolio_option img{
+    width: 424px;
+    height: 248px;
+    margin-top: 70px;
+}
+
+.portfolio_deshbord p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 32px;
+}
+
+.portfolio_deshbord .text{
+    width: 360px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--work_sans);
+    color: #000;
+    margin-top: 12px;
+}
+
+
+.portfolio_deshbord h2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--best);
+    margin-top: 4px;
+}
+
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.portfolio_deshbord .animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 173px;
+height: 48px;
+    border: 2px solid #A53DFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: var(--primary) ;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+.portfolio_deshbord .animated-button .arr-1 {
+  right: 16px;
+}
+
+ .portfolio_deshbord .animated-button .arr-2 {
+  left: -25%;
+}
+
+.portfolio_deshbord .animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.portfolio_deshbord .animated-button .text {
+	position: relative;
+	z-index: 1;
+	transform: translateX(-12px);
+	transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
+
+.portfolio_deshbord .animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color:var(--best);
+  border-radius: 12px;
+  
+}
+
+.portfolio_deshbord .animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.portfolio_deshbord .animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.portfolio_deshbord .animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.portfolio_deshbord .animated-button:hover svg {
+  fill: #212121;
+}
+
+.portfolio_deshbord .animated-button:active {
+  scale: 0.95;
+ 
+}
+
+.portfolio_deshbord .animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.portfolio_deshbord button{
+    width: 173px;
+    height: 48px;
+    border: 2px solid #A53DFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--primary);
+    color: #A53DFF;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px
+}
+
+.portfolio_deshbord  .fa-arrow-right{
+    padding-left: 10px;
+    margin-top: 5px;
+} */
+
+
+.portfolio_deshbord {
+	padding-left: 32px;
+	padding-top: 20px;
+	width: 425px;
+	height: 275px;
+	background-color: #fff;
+	margin-top: -32px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.portfolio_product{
+    display: flex;
+    gap: 24px;
+}
+
+
+ /* From Uiverse.io by TaniaDou */ 
+/* From Uiverse.io by Sergestra */ 
+.classic_button button {
+    display: flex;
+    flex-direction: column;
+    width: 149px;
+    height: 48px;
+    color: var(--primary);
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    margin-top: 50px;
+    border: none;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.classic_button button div {
+ transform: translateY(0px);
+ width: 100%;
+}
+
+.classic_button button,
+button div {
+ transition: 0.6s cubic-bezier(.16,1,.3,1);
+}
+
+.classic_button button div span {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+.classic_button button div:nth-child(1) {
+ background-color: var(--primary)
+}
+
+.classic_button button div:nth-child(2) {
+ background-color:#fff ;
+}
+
+.classic_button button:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.classic_button button:hover div {
+ transform: translateY(-50px);
+}
+
+.classic_button button p {
+ font-size: 14px;
+ font-weight: bold;
+ color: #000
+}
+
+.classic_button button:active {
+ transform: scale(0.95);
+}
+
+.classic_button{
+    display:flex;
+    justify-content:flex-end;
+}
+
+
+/* -------------------------------Portfolio part done------------------------- */
+/* ------------------------------Project part working------------------------- */
+#project{
+    margin-top: 100px;
+    background-color: #132238;
+    width: 100%;
+    height: 472px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.project_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: #fff;
+}
+
+.project_text h2 span{
+    font-size: 48px;  
+}
+
+.project_text p{
+    width: 577px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 32px;
+    margin-left: 380px;
+}
+
+/* From Uiverse.io by cssbuttons-io */ 
+.add {
+    padding-left: 5px;
+	width: 156px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: var(--work_sans);
+	text-transform: uppercase;
+	width: 255px;
+	height: 48px;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin-top: 32px;
+}
+
+.add:hover {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.add:active {
+  transform: translateY(-1px);
+}
+
+.add .fa-arrow-right {
+	padding-left: 10px;
+}
+
+
+/* --------------------------------Project part done--------------------- */
+/* ---------------------------Blog part working-------------------------- */
+.blog_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--best);
+    text-align: center;
+}
+
+.blog_text p {
+	width: 540px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: var(--public);
+	color: var(--gray);
+	margin-top: 24px;
+	text-align: center;
+	margin-left: 380px;
+}
+
+#Blog{
+    margin-top: 100px;
+  
+}
+
+.blog_image img{
+    width: 312px;
+    height: 226px;
+    margin-top: 70px;
+}
+
+.blog_part p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--public);
+    color: var(--gray);
+    margin-top: 24px;
+}
+
+.blog_part h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--work_sans);
+    color: var(--best);
+    width: 264px;
+    margin-top: 8px;
+}
+
+.blog_slider{
+    padding-left: 24px;
+}
+
+.blog_option{
+    display: flex;
+    gap: 24p;
+}
+/* -----------------------Blog part done---------------------------- */
+/* ----------------------------User Experience part working------------------- */
+.experience_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+    color: var(--best);
+    padding-top: 269px;
+}
+
+.experience_text p{
+    width: 529px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--work_sans);
+    color: var(--gray);
+    margin-top: 24px;
+}
+
+/* From Uiverse.io by Mhyar-nsi */ 
+.experience_text button {
+    width:126px ;
+    height: 48px;
+      font-size: 18px;
+    font-weight: 600;
+    font-family: var(--work_sans);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+    background-color: #fff;
+    color: var(--primary);
+    margin-top: 50px;
+}
+
+.experience_text button:hover {
+  background-color:var(--primary);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: #fff;
+}
+
+
+
+
+.experience_main h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--best);
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.experience_main p{
+    width: 584px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--gray);
+    margin-top:16px ;
+    padding-left: 32px;
+}
+
+.experience_option{
+    margin-top: 222px;
+    width: 648px;
+    height: 176px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.experience_part{
+    width: 648px;
+    height: 176px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 24px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+/* --------------------------experience part done------------------------- */
+/* ----------------------------Happy Clients part working--------------------- */
+
+.clients_text h2 {
+	font-size: 48px;
+	font-weight: 600;
+	font-family: var(--work_sans);
+	color: var(--best);
+	margin-top: 260px;
+	padding-left: 445px;
+}
+
+.clients_text p {
+	width: 577px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: var(--poppins);
+	color: var(--gray);
+	margin-top: 24px;
+	text-align: center;
+	margin-left: 315px;
+}
+
+.social_media a{
+    width: 200px;
+    height: 200px;
+    background-color: #ecf0f1;
+    margin-top: 24px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+/* -----------------------------Happy Clients part done------------------------ */
+/* -----------------------------Testimonial part working-------------------------- */
+
+
+
+
+
+/* ----------------------------------Testimonial part done------------------------- */
+/* --------------------------------our project part working------------------------ */
+#ourproject{
+    width: 1320px;
+    height: 780px;
+    background-color:  #ecf0f1 ;
+    margin-left: 300px;
+    margin-top: 158px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.your_project_text h2{
+    font-size: 38px;
+	font-weight: 600;
+	font-family: var(--work_sans);
+	color: var(--best);
+    margin-top: 88px;
+    margin-left: 88px;  
+}
+
+.your_project_text p{
+    width: 481px;
+    font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: var(--gray);
+    margin-top: 16px;
+    margin-left: 88px;
+
+}
+
+.project_part{
+    margin-top: 35px;
+    margin-left: 88px;
+}
+
+.project_box{
+    width: 336px;
+    height: 96px;
+    background-color: aliceblue;
+    margin-top: 12px;
+}
+
+.project_information img{
+    width: 48px;
+    height: 48px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.address_text p {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: var(--gray);
+	margin-left: 83px;
+	margin-top: -48px;
+}
+
+.address_text h2 {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: var(--work_sans);
+	color: var(--best);
+	margin-left: 83px;
+	margin-top: -12px;
+}
+
+
+.social_links a{
+   font-size: 38px;
+   margin-top: 35px;
+}
+
+.social_links ul {
+	display: flex;
+	gap: 12px;
+	padding-left: 5px;
+}
+
+.social_links ul li a .fa-twitter{
+   color: skyblue;
+}
+
+.social_links ul li a .fa-facebook{
+   color: #1877F2;
+}
+
+.social_links ul li a .fa-instagram{
+   color:lightseagreen;
+}
+
+.social_links ul li a .fa-github{
+   color: black;
+}
+
+
+.input_text p{
+    width: 560px;
+    font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: var(--gray);
+    padding-top: 114px;
+}
+
+.submit_information .line{
+    width: 560px;
+    height: 1px;
+    border: 2px solid #212121;
+    margin-top: 14px;
+}
+
+.submit_information label{
+    font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: var(--gray);
+    margin-top: 50px;
+}
+
+.submit_information input{
+    width: 400px;
+    border: none;
+    /* border: 2px solid #212121;
+    border-radius: 5px; */
+     background-color:   #f2f3f4   ;
+}
+
+.input_information label{
+    font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: var(--gray);
+    margin-top: 24px;
+}
+
+.input_information .line{
+    width: 560px;
+    height: 1px;
+    border: 2px solid  #212121;
+    margin-top: 14px;
+}
+
+.input_information input{
+     width: 400px;
+     border: none;
+    /* border: 2px solid #212121;
+    border-radius: 5px; */
+    background-color:   #f2f3f4   ;
+}
+
+
+
+/* From Uiverse.io by cssbuttons-io */ 
+.submit_button button {
+     width: 141px;
+    height: 48px;
+  text-transform: uppercase;
+  color: var(--primary);
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+font-size: 16px;
+font-weight: 600;
+font-family: var(--work_sans);
+}
+
+.submit_button button:hover {
+  background-color: var(--primary);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.submit_button button:active {
+  transform: translateY(-1px);
+}
+
+
+
+.submit_button .fa-thumbs-up{
+    padding-left: 12px;
+    font-size: 24px;
+}
+/* -------------------------------------our project part done-------------------------------- */
+/* -------------------------------------footer part working------------------------------------ */
+#footer {
+	width: 100%;
+	height: 330px;
+	background-color: var(--best);
+	margin-top: 60px;
+}
+
+.footer_image img{
+    width: 56px;
+    height: 56px;
+}
+
+.footer_image a{
+    color: #fff;
+    padding-top: 140px;
+}
+
+.footer_icons li a{
+     font-size: 18px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: #fff;
+}
+
+.footer_icons ul {
+	display: flex;
+	gap: 12px;
+	margin-left: 160px;
+	margin-top: -42px;
+}
+
+.footer_icons{
+    margin-left: 194px;
+}
+
+.footer_last p {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: var(--work_sans);
+	color: #fff;
+	padding-left: 690px;
+	margin-top: 0px;
+}
+
+.footer_last {
+	margin-top: -40px;
+    margin-left: 182px;
+}
